@@ -18,7 +18,7 @@
 
 El presente proyecto, BURGER QUEEN es una aplicación responsive desarrollada con Angular 12, Bootstrap 5, y consumo de una Api por el lado del Backend con la siguiente [Documentación](https://laboratoria.github.io/burger-queen-api/); a fin de optimizar la toma de pedidos y el envió de los mismos a cocina, así como también el historial de las ordenes de pedido realizadas.
 
-![burgervideo](https://user-images.githubusercontent.com/85088235/140258149-58888a91-1cbe-4d5b-9f9b-cab99a523afe.gif)
+![burgervideo](https://drive.google.com/file/d/1TKyTfNPxVLeYj1Vj0S-V5ML6uNI2OiAi/view?usp=sharing)
 
 
 ## 2. Definicion del producto
