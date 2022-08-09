@@ -23,7 +23,7 @@ El presente proyecto, BURGER QUEEN es una aplicación responsive desarrollada co
 Accesos:
 * cocinero@gmail.com - Cocinero123#
 * mesero@gmail.com - Mesero123#
-* admin3@gmail.com - admin123
+* admin@localhost - admin123
 
 ## 2. Definicion del producto
 
