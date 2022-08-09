@@ -7,15 +7,16 @@ import { Injectable } from '@angular/core';
 export class DataProductsSelectedService {
 
   constructor() { }
-  private arraySeletectProducts: any = [];
+  arraySeletectProducts: any = [];
+  arrayIdSeletectProducts: any = [];
 
   total: number = 0;
   
   getIdSelectProducts(){
-    return this.arraySeletectProducts.map((elm: { _id: any; })=>elm._id);
+    this.arrayIdSeletectProducts=this.arraySeletectProducts.map((elm: { _id: any; })=>elm._id);
+    console.log(this.arrayIdSeletectProducts,'aver get')
   }
   getDataSelectProducts() {
-    console.log(this.arraySeletectProducts, 'aqui servis');
     return this.arraySeletectProducts;
   }
 
@@ -35,6 +36,7 @@ export class DataProductsSelectedService {
     } else { //entonces eliminamos el producto de la Tabla
       this.arraySeletectProducts = this.arraySeletectProducts.filter((product: { _id: any; }) => product._id !== data);
     }
+    this.getIdSelectProducts();
   }
 
   updateTotal() {
@@ -46,6 +48,7 @@ export class DataProductsSelectedService {
         this.total = this.total + Number(product.price) * Number(product.quantity);
       })
     }
+    this.getIdSelectProducts();
   }
 
   //donde action puede aumentar la cantidad o disminuir

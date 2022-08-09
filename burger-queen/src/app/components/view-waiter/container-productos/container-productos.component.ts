@@ -29,11 +29,10 @@ export class ContainerProductosComponent implements OnInit {
   }
    
   loadProducts(nameCategory:string,index:number){
-    this.productsSelected = this.dataSelectedProducts.getIdSelectProducts();
+    this.productsSelected = this.dataSelectedProducts.arrayIdSeletectProducts;
     this.apiService.getProductsWaiter(nameCategory)
     .subscribe(data => {
       this.dataProducts=data;
-      console.log(this.productsSelected);
     }); 
     this.changeOptionCategory(index)
   }
@@ -60,7 +59,7 @@ export class ContainerProductosComponent implements OnInit {
         this.dataSelectedProducts.updateTotal();
     } 
     //Volvemos a llamar los que estan selecionados, para que actualice en la DOM
-    this.productsSelected = this.dataSelectedProducts.getIdSelectProducts();
+    this.productsSelected = this.dataSelectedProducts.arrayIdSeletectProducts;
   }
 
   

@@ -7,6 +7,11 @@
     color: #ffff;
 }
 
+.btn-orange:hover{
+  background: #fd7e14;
+  color: #ffff;
+}
+
 .bg-login {
     background-image: url('assets\img\img-burger-login.png');
     border-radius: 16px 0px 0px 16px;
@@ -28,6 +33,10 @@
 }
 
 .btn-success-2{
+  background:#3fc59d;
+}
+
+.btn-success-2:hover{
   background:#3fc59d;
 }
 .text-orange {
@@ -111,7 +120,7 @@
 }
 
 .btn-outline-orange:hover{
-  background-color:#FBBB21;
+  background-color:#FBBB21 !important;
   color:#fff;
 }
 
@@ -146,6 +155,8 @@
 
 .btn-orange2:hover{
   opacity: 0.85;
+  background: #EF5A3A;
+  color: #ffff;
 }
 
 .product-img-selected {
@@ -216,6 +227,10 @@
 .button-myPrimary {
   background: #FFBA0C;
   color: #ffff;
+}
+
+.button-myPrimary:hover{
+  background: #FFBA0C;
 }
 
 
