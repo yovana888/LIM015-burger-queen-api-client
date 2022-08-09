@@ -4,7 +4,7 @@
 
 
 ### Made by [Yova V.](https://github.com/yovana888)  & [Cathy C.](https://github.com/CatherineChoque)
-### Link a aplicación [Burger Queen](https://drive.google.com/file/d/1TKyTfNPxVLeYj1Vj0S-V5ML6uNI2OiAi/view?usp=sharing)
+### Link a aplicación [Burger Queen](https://burger-vercel.vercel.app/login)
 
 ## Índice
 
@@ -20,6 +20,10 @@ El presente proyecto, BURGER QUEEN es una aplicación responsive desarrollada co
 
 [burgervideo-Demo](https://drive.google.com/file/d/1TKyTfNPxVLeYj1Vj0S-V5ML6uNI2OiAi/view?usp=sharing)
 
+Accesos:
+* cocinero@gmail.com - Cocinero123#
+* mesero@gmail.com - Mesero123#
+* admin3@gmail.com - admin123
 
 ## 2. Definicion del producto
 
